@@ -10,7 +10,7 @@
 
 1. git clone https://github.com/chickentony/gatling-load-tests.git
 1. mvn install
-1. mvn gatling:test -Dgatling.simulationClass=loadtests.Menu
+1. mvn gatling:test -Dgatling.simulationClass=loadtests.foodservice.Menu
 
 ## Settings
 

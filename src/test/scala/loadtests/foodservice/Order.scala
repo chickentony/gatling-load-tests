@@ -1,11 +1,11 @@
-package loadtests
+package loadtests.foodservice
 
-import io.gatling.core.Predef.{atOnceUsers, scenario}
+import io.gatling.core.Predef.{atOnceUsers, scenario, _}
 import io.gatling.core.scenario.Simulation
 import io.gatling.core.structure.ScenarioBuilder
 import io.gatling.http.Predef.http
 import io.gatling.http.protocol.HttpProtocolBuilder
-import io.gatling.core.Predef._
+
 
 class Order extends Simulation {
   val httpProtocol: HttpProtocolBuilder = http
