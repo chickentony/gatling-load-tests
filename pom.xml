@@ -3,8 +3,8 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.gatling.demo</groupId>
-    <artifactId>gatling-maven-plugin-demo</artifactId>
+    <groupId>gatlin-load-tests</groupId>
+    <artifactId>gatling-maven-load-tests</artifactId>
     <version>3.4.1</version>
 
     <properties>
@@ -23,6 +23,11 @@
             <artifactId>gatling-charts-highcharts</artifactId>
             <version>${gatling.version}</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.github.cdimascio</groupId>
+            <artifactId>dotenv-java</artifactId>
+            <version>2.2.0</version>
         </dependency>
     </dependencies>
 
