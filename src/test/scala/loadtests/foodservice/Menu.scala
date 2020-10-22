@@ -11,7 +11,7 @@ class Menu extends Simulation {
   val httpProtocol: HttpProtocolBuilder = http
     .baseUrl("http://lapkoshka.ru")
     .contentTypeHeader("application/json")
-    .header("x-auth-token", "a140556b-a011-4df8-bbc9-f13eae548a73")
+    .header("x-auth-token", "")
 
   val scn: ScenarioBuilder = scenario("Get menu")
     .exec(http("get menu")

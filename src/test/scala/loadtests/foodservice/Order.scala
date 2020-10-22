@@ -11,7 +11,7 @@ class Order extends Simulation {
   val httpProtocol: HttpProtocolBuilder = http
     .baseUrl("http://lapkoshka.ru")
     .contentTypeHeader("application/json")
-    .header("x-auth-token", "20f12688-7f10-43cb-a120-3d06edb7f03c")
+    .header("x-auth-token", "")
 
   val scn: ScenarioBuilder = scenario("Create order")
     .exec(http("Order")
